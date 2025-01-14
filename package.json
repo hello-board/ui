@@ -1,19 +1,19 @@
 {
   "name": "@helloboard/ui",
-  "description": "Stead UI React Component Library",
+  "description": "Helloboard UI React Component Library",
   "keywords": [
     "helloboard"
   ],
   "author": {
     "name": "helloboard",
-    "email": "contact@poollab.kr"
+    "email": "john.uhyb@helloboard.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poollab-corporation/stead-app.git"
+    "url": "https://github.com/hello-board/ui.git"
   },
   "license": "MIT",
-  "version": "0.0.61",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -26,14 +26,14 @@
     }
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite storybook dev",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "rm -rf dist && tsc && vite build",
-    "add:package": "yarn add ./stead-ui-react-v0.0.61.tgz"
+    "add:package": "yarn add ./helloboard-ui-react-v0.0.1.tgz"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.15.3",

@@ -60,7 +60,7 @@ const meta = {
       type: 'string',
       description: '버튼 가로사이즈 ex) 120px',
     },
-    href: { type: 'string', description: '연결 링크 ex) https://app.steadhr.com' },
+    href: { type: 'string', description: '연결 링크 ex) https://naver.com' },
     disabled: { type: 'boolean', description: '비활성화', defaultValue: false },
     isLoading: { type: 'boolean', description: '로딩 중 여부', defaultValue: false },
     isNewTab: {
