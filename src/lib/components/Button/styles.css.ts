@@ -76,8 +76,8 @@ export const wrapper = recipe({
         style : 'fill-strong',
       },
       style : {
-        color : theme.colors.white,
-        backgroundColor: theme.colors.blue500,
+        color : theme.colors.neutralGray900,
+        backgroundColor: theme.colors.orange500,
         selectors : {
           [`&:disabled`] : {
             cursor: 'not-allowed',
@@ -86,10 +86,10 @@ export const wrapper = recipe({
             border : 'none'
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.blue600
+            backgroundColor : theme.colors.orange600
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.blue700
+            backgroundColor : theme.colors.orange700
           },
         }
       }
@@ -100,8 +100,8 @@ export const wrapper = recipe({
         style : 'fill-weak',
       },
       style : {
-        color : theme.colors.blue500,
-        backgroundColor: theme.colors.blue100,
+        color : theme.colors.neutralGray800,
+        backgroundColor: theme.colors.orange300,
         selectors : {
           [`&:disabled`] : {
             cursor: 'not-allowed',
@@ -110,10 +110,10 @@ export const wrapper = recipe({
             border : 'none'
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.blue200
+            backgroundColor : theme.colors.orange400
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.blue300
+            backgroundColor : theme.colors.orange300
           },
         }
       }
@@ -124,22 +124,22 @@ export const wrapper = recipe({
         style : 'line',
       },
       style : {
-        color : theme.colors.blue500,
-        backgroundColor: theme.colors.white,
-        border:`1px solid ${theme.colors.neutralGray200}`,
+        color : theme.colors.neutralGray800,
+        backgroundColor: theme.colors.orange500,
+        border:`1px solid ${theme.colors.neutralGray800}`,
         selectors  : {
           [`&:disabled`] : {
             cursor: 'not-allowed',
             color : theme.colors.neutralGray400,
               backgroundColor : theme.colors.white,
-              border : `1px solid ${theme.colors.neutralGray200}`
+              border : `1px solid ${theme.colors.neutralGray500}`
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.blue200,
-            border : `1px solid ${theme.colors.blue200}`
+            backgroundColor : theme.colors.orange400,
+            border : `1px solid ${theme.colors.neutralGray500}`
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.blue300
+            backgroundColor : theme.colors.orange300
           },
         }
       }
@@ -150,7 +150,7 @@ export const wrapper = recipe({
         style : 'mono',
       },
       style : {
-        color : theme.colors.blue500,
+        color : theme.colors.neutralGray800,
         backgroundColor: 'transparent',
         selectors : {
           [`&:disabled`] : {
@@ -160,10 +160,10 @@ export const wrapper = recipe({
             border : 'none'
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.blue100,
+            backgroundColor : theme.colors.neutralGray100,
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.blue200
+            backgroundColor : theme.colors.neutralGray200
           },
         }
       }
@@ -175,20 +175,20 @@ export const wrapper = recipe({
         style : 'fill-strong',
       },
       style : {
-        color : theme.colors.white,
-        backgroundColor: theme.colors.neutralGray800,
+        color : theme.colors.orange500,
+        backgroundColor: theme.colors.neutralGray900,
         selectors : {
           [`&:disabled`] : {
             cursor: 'not-allowed',
-            color : theme.colors.neutralGray400,
-            backgroundColor : theme.colors.neutralGray200,
+            color : theme.colors.orange400,
+            backgroundColor : theme.colors.neutralGray600,
             border : 'none'
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.neutralGray900,
+            backgroundColor : theme.colors.black,
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.neutralGray200,
+            backgroundColor : theme.colors.neutralGray600,
             border : 'none'
           },
         }
@@ -200,20 +200,20 @@ export const wrapper = recipe({
         style : 'fill-weak',
       },
       style : {
-        color : theme.colors.neutralGray800,
-        backgroundColor: theme.colors.neutralGray100,
+        color : theme.colors.orange500,
+        backgroundColor: theme.colors.neutralGray700,
         selectors : {
           [`&:disabled`] : {
             cursor: 'not-allowed',
-            color : theme.colors.neutralGray400,
+            color : theme.colors.orange300,
             backgroundColor : theme.colors.neutralGray200,
             border : 'none'
           },
           [`&:not(:disabled):hover`] : {
-            backgroundColor : theme.colors.neutralGray200,
+            backgroundColor : theme.colors.neutralGray800,
           },
           [`&:not(:disabled):active`] : {
-            backgroundColor : theme.colors.neutralGray300,
+            backgroundColor : theme.colors.neutralGray800,
             border: 'none'
           },
         }
@@ -227,7 +227,7 @@ export const wrapper = recipe({
       style : {
         color : theme.colors.neutralGray800,
         backgroundColor: theme.colors.white,
-        border:`1px solid ${theme.colors.neutralGray200}`,
+        border:`1px solid ${theme.colors.neutralGray800}`,
         selectors : {
           [`&:disabled`] : {
             cursor: 'not-allowed',

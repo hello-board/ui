@@ -34,7 +34,7 @@ export const label = recipe({
     type: {
       primary: {
         ':hover': {
-          background: theme.colors.blue100,
+          background: theme.colors.orange100,
         },
       },
       secondary: {
@@ -124,27 +124,27 @@ export const inner = recipe({
     {
       variants: { isActive: true, type: 'primary' },
       style: {
-        backgroundColor: theme.colors.blue500,
-        border: `1px solid ${theme.colors.blue500}`,
+        backgroundColor: theme.colors.orange500,
+        border: `1px solid ${theme.colors.orange500}`,
       },
     },
     {
       variants: { isActive: true, type: 'secondary' },
       style: {
-        backgroundColor: theme.colors.neutralGray700,
-        border: `1px solid ${theme.colors.neutralGray700}`,
+        backgroundColor: theme.colors.neutralGray900,
+        border: `1px solid ${theme.colors.neutralGray900}`,
       },
     },
     {
       variants: { isActive: false, type: 'primary' },
       style: {
-        border: `1px solid ${theme.colors.blue500}`,
+        border: `1px solid ${theme.colors.orange500}`,
       },
     },
     {
       variants: { isActive: false, type: 'secondary' },
       style: {
-        border: `1px solid ${theme.colors.neutralGray700}`,
+        border: `1px solid ${theme.colors.neutralGray900}`,
       },
     },
   ],

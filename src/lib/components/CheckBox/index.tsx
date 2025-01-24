@@ -57,8 +57,8 @@ export const CheckBox = ({
               defaultChecked={isChecked}
               onChange={handleInputChange}
             />
-            {isChecked && <Icon icon="icon/check-line" color="white" size={imageSize} />}
-            {isPartial && <Icon icon="icon/minus-line" color="white" size={imageSize} />}
+            {isChecked && <Icon icon="icon/check-line" color={'neutralGray800'} size={imageSize} />}
+            {(!isChecked && isPartial) && <Icon icon="icon/minus-line" color={'neutralGray800'} size={imageSize} />}
           </div>
         </div>
       </label>

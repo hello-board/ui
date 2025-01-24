@@ -38,7 +38,7 @@ export const switchLabel = recipe({
     },
     isChecked: {
       true: {
-        backgroundColor: theme.colors.blue500,
+        backgroundColor: theme.colors.orange500,
       },
     },
     isDisabled: {

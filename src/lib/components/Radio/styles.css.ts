@@ -53,7 +53,7 @@ export const radio = recipe({
       primary: {
         selectors: {
           ['&:before']: {
-            border: `1px solid ${theme.colors.blue400}`,
+            border: `1px solid ${theme.colors.orange400}`,
           },
           ['&:after']: {
             display: 'none',
@@ -139,7 +139,7 @@ export const radio = recipe({
       style: {
         selectors: {
           ['&:before']: {
-            backgroundColor: theme.colors.blue400,
+            backgroundColor: theme.colors.orange400,
           },
         },
       },
@@ -152,7 +152,7 @@ export const radio = recipe({
       style: {
         selectors: {
           ['&:before']: {
-            backgroundColor: theme.colors.neutralGray700,
+            backgroundColor: theme.colors.neutralGray800,
           },
         },
       },

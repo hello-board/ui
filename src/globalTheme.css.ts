@@ -19,12 +19,12 @@ export const theme = createGlobalTheme(':root', {
     },
     types : {
       standard : {
-        background: COLORS.blue100,
-        color: COLORS.blue500
+        background: COLORS.neutralGray800,
+        color: COLORS.orange500
       },
       primary: {
-        background: COLORS.blue500,
-        color: COLORS.white
+        background: COLORS.orange500,
+        color: COLORS.neutralGray800
       },
       warning: {
         background: COLORS.red500,
@@ -32,10 +32,11 @@ export const theme = createGlobalTheme(':root', {
       },
       gray: {
         background: COLORS.neutralGray100,
-      color: COLORS.neutralGray600
-    },
+        color: COLORS.neutralGray600
+      },
+    }
   }
-})
+)
 
 globalStyle(':root', {
   colorScheme: 'light only'

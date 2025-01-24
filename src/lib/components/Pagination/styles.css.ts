@@ -31,11 +31,11 @@ export const styledLink = recipe({
   variants : {
     isActive : {
       true : {
-        color: theme.colors.white,
-        background: theme.colors.blue500,
+        color: theme.colors.orange500,
+        background: theme.colors.neutralGray800,
         selectors: {
           ['&:hover'] : {
-            background:  theme.colors.blue500
+            background:  theme.colors.neutralGray900
           }
         }
       },
