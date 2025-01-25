@@ -13,35 +13,35 @@ export const getIconColor = (state: State, style: Style, disabled?: boolean) => 
         case 'primary':
           switch (style) {
             case 'fill-strong':
-              color = 'white'
+              color = 'neutralGray800'
               break
             case 'fill-weak':
-              color = 'blue500'
+              color = 'neutralGray500'
               break
             case 'line':
-              color = 'blue500'
+              color = 'neutralGray800'
               break
             case 'mono':
-              color = 'blue500'
+              color = 'neutralGray500'
               break
           }
           break
         case 'secondary':
           switch (style) {
             case 'fill-strong':
-              color = 'white'
+              color = 'orange500'
               break
             case 'fill-weak':
-              color = 'neutralGray800'
+              color = 'orange500'
               break
             case 'line':
               color = 'neutralGray800'
               break
             case 'mono':
-              color = 'neutralGray800'
+              color = 'neutralGray500'
               break
             default:
-              color = 'neutralGray800'
+              color = 'orange800'
               break
           }
           break
