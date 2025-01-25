@@ -13,7 +13,7 @@
     "url": "https://github.com/hello-board/ui.git"
   },
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -33,7 +33,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "rm -rf dist && tsc && vite build",
-    "add:package": "yarn add ./helloboard-ui-react-v0.0.2.tgz"
+    "add:package": "yarn add ./helloboard-ui-react-v0.0.3.tgz"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.15.3",
